@@ -1,0 +1,280 @@
+{
+ "head": {
+  "docType": "3",
+  "editorVersion": "6.5.32",
+  "newId": "290351e93b93446eac7b3a187246bd9e",
+  "c_para": {
+   "isFirst": "1"
+  }
+ },
+ "canvasSettings": {
+  "x": 10,
+  "y": 10,
+  "grid": 10,
+  "w": 500,
+  "h": 1000,
+  "bgColor": "#FFFFFF",
+  "gridColor": "#E0E0E0"
+ },
+ "shapes": [
+  {
+   "type": "lib",
+   "uuid": "215168770fef4feba5398f5a",
+   "name": "ESP32-S3-WROOM-1",
+   "device": "U1",
+   "x": 200,
+   "y": 260,
+   "rot": 0,
+   "id": "f84ca7bdedc44712b040371c",
+   "schLibId": "C2896541",
+   "gInfo": {
+    "x": 200,
+    "y": 260,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "839af5d3050147868390ad17",
+   "name": "INMP441",
+   "device": "U2",
+   "x": 60,
+   "y": 100,
+   "rot": 0,
+   "id": "f36defaef188426d8885d5d5",
+   "schLibId": "C24112",
+   "gInfo": {
+    "x": 60,
+    "y": 100,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "6be1ecc71f7e4bcd8a3fa507",
+   "name": "MAX98357A",
+   "device": "U3",
+   "x": 60,
+   "y": 420,
+   "rot": 0,
+   "id": "c60f074d02274bcc88917eba",
+   "schLibId": "C2834888",
+   "gInfo": {
+    "x": 60,
+    "y": 420,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "0b47748ddf7e413ba52017ca",
+   "name": "GC9A01-1.28",
+   "device": "U4",
+   "x": 340,
+   "y": 100,
+   "rot": 0,
+   "id": "dd3f56ddb74644cea77a513f",
+   "schLibId": "C2975552",
+   "gInfo": {
+    "x": 340,
+    "y": 100,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "a9cdc6378e5240e7bd7e21d3",
+   "name": "SHT40",
+   "device": "U5",
+   "x": 340,
+   "y": 420,
+   "rot": 0,
+   "id": "341d9f4854424444b54643b1",
+   "schLibId": "C5313433",
+   "gInfo": {
+    "x": 340,
+    "y": 420,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "7bc33812107748d0899648d6",
+   "name": "TP4057",
+   "device": "U6",
+   "x": 60,
+   "y": 680,
+   "rot": 0,
+   "id": "28969a25010d4462bae86e4e",
+   "schLibId": "C20593",
+   "gInfo": {
+    "x": 60,
+    "y": 680,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "a32b519e8e084bb2b6608a09",
+   "name": "ME6211-3.3V",
+   "device": "U7",
+   "x": 200,
+   "y": 680,
+   "rot": 0,
+   "id": "1aab4940f47e405a895a6981",
+   "schLibId": "C82902",
+   "gInfo": {
+    "x": 200,
+    "y": 680,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "9dcc708c5b324b1c83329b5f",
+   "name": "USB-C",
+   "device": "USB1",
+   "x": 60,
+   "y": 540,
+   "rot": 0,
+   "id": "e94b7f6801f64f148c68bb1d",
+   "schLibId": "C2765186",
+   "gInfo": {
+    "x": 60,
+    "y": 540,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "cda497065914478cb3a696a1",
+   "name": "BATTERY-PH2",
+   "device": "BT1",
+   "x": 340,
+   "y": 680,
+   "rot": 0,
+   "id": "79e6872d300141fdbe90a98e",
+   "schLibId": "C94556",
+   "gInfo": {
+    "x": 340,
+    "y": 680,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "8760000de65c49259370ac05",
+   "name": "SPEAKER-PH2",
+   "device": "LS1",
+   "x": 340,
+   "y": 540,
+   "rot": 0,
+   "id": "9d3606de261844919a65eca1",
+   "schLibId": "C94557",
+   "gInfo": {
+    "x": 340,
+    "y": 540,
+    "rot": 0
+   }
+  },
+  {
+   "type": "lib",
+   "uuid": "372d5444ee454c4eba92fd35",
+   "name": "KEY",
+   "device": "S1",
+   "x": 340,
+   "y": 560,
+   "rot": 0,
+   "id": "422ea2999dc04f27937dc33e",
+   "schLibId": "C92514",
+   "gInfo": {
+    "x": 340,
+    "y": 560,
+    "rot": 0
+   }
+  },
+  {
+   "type": "text",
+   "uuid": "8b6c2d1b8d444f70bffc6602",
+   "x": 90,
+   "y": 920,
+   "rot": 0,
+   "text": "星语 StarTalk 原理图",
+   "font": {
+    "size": 3.5,
+    "name": "Arial"
+   }
+  }
+ ],
+ "bom": {
+  "v": 1,
+  "items": [
+   {
+    "device": "U1",
+    "name": "ESP32-S3-WROOM-1",
+    "quantity": 1,
+    "schLibId": "C2896541"
+   },
+   {
+    "device": "U2",
+    "name": "INMP441",
+    "quantity": 1,
+    "schLibId": "C24112"
+   },
+   {
+    "device": "U3",
+    "name": "MAX98357A",
+    "quantity": 1,
+    "schLibId": "C2834888"
+   },
+   {
+    "device": "U4",
+    "name": "GC9A01-1.28",
+    "quantity": 1,
+    "schLibId": "C2975552"
+   },
+   {
+    "device": "U5",
+    "name": "SHT40",
+    "quantity": 1,
+    "schLibId": "C5313433"
+   },
+   {
+    "device": "U6",
+    "name": "TP4057",
+    "quantity": 1,
+    "schLibId": "C20593"
+   },
+   {
+    "device": "U7",
+    "name": "ME6211-3.3V",
+    "quantity": 1,
+    "schLibId": "C82902"
+   },
+   {
+    "device": "USB1",
+    "name": "USB-C",
+    "quantity": 1,
+    "schLibId": "C2765186"
+   },
+   {
+    "device": "BT1",
+    "name": "BATTERY-PH2",
+    "quantity": 1,
+    "schLibId": "C94556"
+   },
+   {
+    "device": "LS1",
+    "name": "SPEAKER-PH2",
+    "quantity": 1,
+    "schLibId": "C94557"
+   },
+   {
+    "device": "S1",
+    "name": "KEY",
+    "quantity": 1,
+    "schLibId": "C92514"
+   }
+  ]
+ }
+}
