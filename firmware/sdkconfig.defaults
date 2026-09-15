@@ -1,0 +1,24 @@
+# StarTalk 默认配置 (ESP32-S3)
+CONFIG_IDF_TARGET="esp32s3"
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
+# WiFi
+CONFIG_WIFI_SSID="your_wifi"
+CONFIG_WIFI_PASSWORD="your_password"
+
+# LLM
+CONFIG_LLM_API_URL="https://api.openai.com/v1/chat/completions"
+CONFIG_LLM_API_KEY="sk-your-key"
+CONFIG_LLM_MODEL="gpt-4o-mini"
+
+# TTS (火山引擎示例)
+CONFIG_TTS_URL="https://openspeech.bytedance.com/api/v1/tts"
+CONFIG_TTS_TOKEN="your-tts-token"
+CONFIG_TTS_VOICE="zh_female_common"
+
+# 组件
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y
